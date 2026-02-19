@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-evidently`](https://www.npmjs.com/package/@aws-sdk/client-evidently/v/3.958.0).
+[`@aws-sdk/client-evidently`](https://www.npmjs.com/package/@aws-sdk/client-evidently/v/3.962.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.958.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.962.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Ks3CB3ID2iP8QM8SeuMaYXSRV1FqS0TgPTDlRkO/yyoJsq8Jdjvfy0Rs7OneXrLE
+sha384-7Rnkvs/B2QzW8ShzGHOEzwIhdUSE3jtTyOn5xhFWy5SuF1D418/ixmItmzLGplTx
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-evidently": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.958.0/index.min.mjs"
+            "@aws-sdk/client-evidently": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.962.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.958.0/index.min.mjs": "sha384-Ks3CB3ID2iP8QM8SeuMaYXSRV1FqS0TgPTDlRkO/yyoJsq8Jdjvfy0Rs7OneXrLE"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.962.0/index.min.mjs": "sha384-7Rnkvs/B2QzW8ShzGHOEzwIhdUSE3jtTyOn5xhFWy5SuF1D418/ixmItmzLGplTx"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-evidently": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.958.0/index.min.mjs"
+                        "@aws-sdk/client-evidently": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.962.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.958.0/index.min.mjs": "sha384-Ks3CB3ID2iP8QM8SeuMaYXSRV1FqS0TgPTDlRkO/yyoJsq8Jdjvfy0Rs7OneXrLE"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-evidently@3.962.0/index.min.mjs": "sha384-7Rnkvs/B2QzW8ShzGHOEzwIhdUSE3jtTyOn5xhFWy5SuF1D418/ixmItmzLGplTx"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.958.0`)
+* Always pin to a specific version (`@3.962.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-evidently/blob/refs/tags/3.958.0/LICENSE
+https://github.com/cloud-sdk-builds/client-evidently/blob/refs/tags/3.962.0/LICENSE
 ```
 
 ---
